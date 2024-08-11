@@ -21,7 +21,7 @@ git clone https://github.com/aarti215/Docker-angular-app-project.git
 
 **Go to database Directory**
 ````
-cd Project-Docker-Angular/database
+cd Docker-angular-app-project/database
 ````
 **Create Dockerfile for Database**
 

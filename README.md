@@ -15,7 +15,7 @@ sudo usermod -a -G docker ec2-user
 ### ${\color{purple} \textbf{Install git}}$
 ````
 yum install git -y
-git clone https://github.com/guru6910/Project-Docker-Angular-App.git
+git clone https://github.com/aarti215/Docker-angular-app-project.git
 ````
 # ${\color{red} \textbf{Database}}$
 

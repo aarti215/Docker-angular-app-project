@@ -137,7 +137,7 @@ vim src/app/services/worker.service.ts
 
 **Build the Image for Angular-Frontend**
 ````
-docker build -t frontend:f1
+docker build -t frontend:f1 .
 ````
 **Run the Container for Angular-Frontend**
 ````

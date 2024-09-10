@@ -11,6 +11,8 @@ pipeline {
         stage('docker-build'){
             steps{
                 sh 'docker build -t db:d1 database/.'
+                sh 'docker build -t sb:s1 spring-backend/.'
+                sh 'docker build -t af:a1 angular-frontend/.'
             }
         }
     }

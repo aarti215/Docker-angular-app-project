@@ -1,4 +1,4 @@
-#create database springbackend;
+create database springbackend;
 use springbackend;
 -- phpMyAdmin SQL Dump
 -- version 5.1.1

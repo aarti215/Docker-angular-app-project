@@ -18,7 +18,7 @@ pipeline {
         stage('docker-run'){
             steps{
                 sh 'docker run -itd -p 3306:3306 db:d1'
-                sh 'docker run -itd -p 8081:8081 sb:s1'
+                sh 'docker run -itd -p 8081:8080 sb:s1'
                 sh 'docker run -itd -p 80:80 af:a1'
             }
         }
